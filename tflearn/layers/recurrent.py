@@ -14,7 +14,7 @@ except:
     from tensorflow.python.ops.rnn import rnn_cell_impl as _rnn_cell, dynamic_rnn as _drnn
     from tensorflow.contrib.rnn.python.ops import core_rnn_cell
 
-from tensorflow.python.util.nest import is_sequence_or_composite()
+from tensorflow.python.util.nest import is_sequence_or_composite
 
 from .. import config
 from .. import utils
